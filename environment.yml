@@ -1,31 +1,56 @@
 name: piam
 channels:
-  - anaconda
-  - defaults
+  - conda-forge
 dependencies:
+  - backcall=0.2.0=pyh9f0ad1d_0
+  - backports=1.0=py_2
+  - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - blas=1.0=mkl
-  - ca-certificates=2020.10.14=0
-  - certifi=2020.6.20=py37_0
+  - ca-certificates=2021.10.8=h5b45459_0
+  - certifi=2021.10.8=py37h03978a9_1
+  - colorama=0.4.4=pyh9f0ad1d_0
+  - debugpy=1.5.1=py37hf2a7229_0
+  - decorator=5.1.1=pyhd8ed1ab_0
+  - entrypoints=0.4=pyhd8ed1ab_0
   - intel-openmp=2020.2=254
+  - ipykernel=6.9.0=py37h4038f58_0
+  - ipython=7.31.1=py37h03978a9_0
+  - jedi=0.18.1=py37h03978a9_0
+  - jupyter_client=7.1.2=pyhd8ed1ab_0
+  - jupyter_core=4.9.1=py37h03978a9_1
+  - libsodium=1.0.18=h8d14728_1
+  - matplotlib-inline=0.1.3=pyhd8ed1ab_0
   - mkl=2019.4=245
   - mkl-service=2.3.0=py37hb782905_0
   - mkl_fft=1.2.0=py37h45dec08_0
   - mkl_random=1.0.4=py37h343c172_0
+  - nest-asyncio=1.5.4=pyhd8ed1ab_0
   - numpy=1.19.1=py37h5510c5b_0
   - numpy-base=1.19.1=py37ha3acd2a_0
-  - openssl=1.1.1h=he774522_0
+  - openssl=1.1.1l=h8ffe710_0
   - pandas=1.1.3=py37ha925a31_0
+  - parso=0.8.3=pyhd8ed1ab_0
+  - pickleshare=0.7.5=py_1003
   - pip=20.2.4=py37_0
+  - prompt-toolkit=3.0.27=pyha770c72_0
+  - pygments=2.11.2=pyhd8ed1ab_0
   - python=3.7.9=h60c2a47_0
   - python-dateutil=2.8.1=py_0
+  - python_abi=3.7=2_cp37m
   - pytz=2020.1=py_0
+  - pywin32=303=py37hcc03f2d_0
+  - pyzmq=22.3.0=py37hcce574b_1
   - setuptools=50.3.0=py37h9490d1a_1
   - six=1.15.0=py_0
   - sqlite=3.33.0=h2a8f88b_0
+  - tornado=6.1=py37hcc03f2d_2
+  - traitlets=5.1.1=pyhd8ed1ab_0
   - vc=14.1=h0510ff6_4
   - vs2015_runtime=14.16.27012=hf0eaf9b_3
+  - wcwidth=0.2.5=pyh9f0ad1d_2
   - wheel=0.35.1=py_0
   - wincertstore=0.2=py37_0
+  - zeromq=4.3.4=h0e60522_1
   - zlib=1.2.11=vc14h1cdd9ab_1
   - pip:
     - beautifulsoup4==4.10.0
@@ -39,6 +64,7 @@ dependencies:
     - matplotlib==3.5.1
     - multitasking==0.0.10
     - packaging==21.3
+    - pandas-datareader==0.10.0
     - pillow==9.0.1
     - pyparsing==3.0.7
     - requests==2.27.1
@@ -50,4 +76,3 @@ dependencies:
     - urllib3==1.26.8
     - yahoofinancials==1.6
     - yfinance==0.1.70
-prefix: D:\anaconda3\envs\piam
